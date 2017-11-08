@@ -8,7 +8,7 @@
 </head>
 <jsp:useBean id="data" class="mybean.data.Area" scope="session"/>
 <html><body bgcolor=cyan><Font size=2>
-<form action="lookArea" Method="get">
+<form action="handle" Method="get">
 <br>
 up:<Input type = text name = "a" size = 4>
 down:<Input type = text name = "b" size = 4>
