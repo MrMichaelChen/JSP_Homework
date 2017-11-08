@@ -15,7 +15,6 @@ down:<Input type = text name = "b" size = 4>
 high:<Input type = text name = "c" size = 4>
 <input type=submit value="submit">
 </form>
-
 <jsp:getProperty name = "data" property = "mess"/>
 up<jsp:getProperty name = "data" property = "a"/>
 down<jsp:getProperty name = "data" property = "b"/>
