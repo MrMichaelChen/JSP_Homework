@@ -1,0 +1,10 @@
+<xml>
+<servlet>
+	<servlet-name>handle</servlet-name>
+	<servlet-class>myservlet.control.HandleData</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>handle</servlet-name>
+	<url-pattern>/handleData</url-pattern>
+</servlet-mapping>
+</xml>
